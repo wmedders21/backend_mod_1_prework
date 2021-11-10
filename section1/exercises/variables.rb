@@ -37,7 +37,7 @@ puts students - 2
 first_name = "Will"
 is_hungry = true
 number_of_pets = 0
-puts "#{first_name} #{is_hungry} #{number_of_pets}"
+puts first_name, is_hungry, number_of_pets
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
@@ -70,4 +70,4 @@ puts total_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
-  # You better bet your boots on that, partner!
+  # Yes

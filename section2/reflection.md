@@ -2,80 +2,81 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-I usually feel comfortable asking questions.
+>I usually feel comfortable asking questions.
 
 ### If Statements
 
-1. What is a conditional statement? Give three examples.
+2. What is a conditional statement? Give three examples.
 
-Conditional statements are meant to return a value of true or false.
-
-Ex:
-```
+>Conditional statements are meant to return a value of true or false.
+```rb
 age >= 21
 weight != 1000
 color == green
 ```
 
-1. Why might you want to use an if-statement?
+3. Why might you want to use an if-statement?
 
-When you need to branch your program into multiple possible outcomes.
+>When you need to branch your program (a.k.a control the flow) into multiple possible outcomes.
 
-1. What is the Ruby syntax for an if statement?
+4. What is the Ruby syntax for an if statement?
 
-```
-if conditional
+>```rb
+if variable < value
   code here after 2 spaces
 end
-```
+>```
 
-1. How do you add multiple conditions to an if statement?
+5. How do you add multiple conditions to an if statement?
 
-By using elsif and else
+>By using elsif and else
 
-1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+6. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```
-if yadda = bobada
-  puts "yaddabobada"
-elsif yadda = momamma
-  puts "yaddamomamma"
+>```rb
+if egg_count === 12
+  puts "You have a dozen eggs!"
+elsif egg_count < 12
+  puts "It looks like that egg-sucking weasel is back!"
 else
-  puts "aye aye aye"
+  puts "Way too many eggs! Better make an omelette."
 end
-```
+>```
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+7. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-Some methods return true or false such as `.nil?` and `.include?`.
+>Conditionals are used in while loops and until loops.
 
 ### Methods
 
-1. In your own words, what is the purpose of a method?
+8. In your own words, what is the purpose of a method?
 
-It allows developers to save time and space by having a set piece of code that can be called with a simple invocation whenever necessary.
+>Methods allow developers to save time and space by having a set piece of code that can be called with a simple invocation whenever necessary.
 
-1. Create a method named `hello` that will print `"Sam I am"`.
+9. Create a method named `hello` that will print `"Sam I am"`.
 
-```
+>```rb
 def hello()
   puts "Sam I am"
 end
-```
+>```
 
-1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+10. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-```
+>```rb
 def hello_someone(name)
   puts "#{name} I am"
 end
-```
+>```
 
 
-1. How would you call or execute the method that you created above?
+11. How would you call or execute the method that you created above?
 
-`hello_someone("Will")`
+>Type the method name with the correct number of arguments in parentheses immediately after.
+>```rb
+hello_someone("Will")
+>```
 
-1. What questions do you have about methods in Ruby?
+12. What questions do you have about methods in Ruby?
 
-Are parentheses still required if there are no parameters?
+>Are parentheses still required if there are no parameters?

@@ -23,7 +23,7 @@ puts zoo.values
 # you created above:
 
 puts zoo[:kangaroos]
-
+#puts "There are #{zoo[:kangaroos]} kangaroos in the zoo."
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 zoo["rhinos"] = 4

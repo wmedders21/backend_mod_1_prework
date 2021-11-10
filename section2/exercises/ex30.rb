@@ -29,7 +29,7 @@ end
 #    else will run its code if all above statements are false
 # 2. I changed all the values to the same number.
 #    The result is all else statements
-# 3.
+#
 
 if people > trucks || people = trucks
   puts "Make up your dang mind, jeez!"

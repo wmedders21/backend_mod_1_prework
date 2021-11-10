@@ -14,7 +14,7 @@
 
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
-animals = ["Zebra", "Giraffe", "Elephant"];
+animals = ["Zebra", "Giraffe", "Elephant"]
 puts animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
@@ -29,8 +29,7 @@ puts animals.length
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-animals[-1] = "Gorilla"
-
+animals[-1].sub("Elephant", "Gorilla")
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals.insert(2, "Antelope")
 
