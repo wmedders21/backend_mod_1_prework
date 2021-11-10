@@ -5,13 +5,13 @@
 # Build a Bear
 #Define method build_a_bear with parameters name, age, fur, clothes, and special_power.
 def build_a_bear(name, age, fur, clothes, special_power)
-#In the method, set greeting variable to a string that interpolates the name variable.
+#Declare greeting variable to a string that interpolates the name variable.
   greeting = "Hey partner! My name is #{name} - will you be my friend?!"
-#Set a demographics variable to an array with name and age.
+#Declare a demographics variable to an array with name and age.
   demographics = [name, age]
-#Set a power_saying variable to a string with special_power interpolated.
+#Declare a power_saying variable to a string with special_power interpolated.
   power_saying = "Did you know that I can #{special_power}?"
-# Set built_bear variable to a hash with the following key/value pairs: basic_info/demographics,
+#Declare built_bear variable to a hash with the following key/value pairs: basic_info/demographics,
 #clothes/clothes, exterior/fur, cost/49.99, sayings/[greeting, power_saying, "Goodnight my friend!"], is_cuddly/true.
   built_bear = {
     'basic_info' => demographics,
@@ -35,7 +35,7 @@ build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 
 
 # FizzBuzz
-#Create a method called fizzbuzz with parameters called num_1, num_2, and range.
+#Define a method called fizzbuzz with parameters called num_1, num_2, and range.
 def fizzbuzz(num_1, num_2, range)
 #Create a for loop for a variable named i from 1 to range variable.
   (1..range).each do |i|
